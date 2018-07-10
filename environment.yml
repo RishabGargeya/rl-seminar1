@@ -24,7 +24,7 @@ dependencies:
     - pip:
         - jupyter
         - moviepy
-        - tensorflow-gpu==1.8.0
+        - tensorflow==1.8.0
         - keras
         - pydot
         - nltk
@@ -32,3 +32,5 @@ dependencies:
         - awscli
         - google-cloud
         - pyvirtualdisplay
+        - gym
+        - gym-retro
