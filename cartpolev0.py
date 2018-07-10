@@ -1,6 +1,6 @@
 import gym
 env = gym.make('CartPole-v0')
-env = gym.wrappers.Monitor(env, './vids/', video_callable= lambda episode_id:True ,force=True)
+env = gym.wrappers.Monitor(env, './vidsrandom/', video_callable= lambda episode_id:True ,force=True)
 env.reset()
 print(env.action_space)
 print(env.observation_space)

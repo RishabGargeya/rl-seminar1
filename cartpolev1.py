@@ -11,7 +11,7 @@ def Predict():
 
         #from gym import wrappers                                        # Output MP4
         #env = wrappers.Monitor(env, '/tmp/cartpole-experiment-0')       # Output MP4
-        env = gym.wrappers.Monitor(env, './vids2/', video_callable= lambda episode_id:True ,force=True)
+        env = gym.wrappers.Monitor(env, './vidsrl/', video_callable= lambda episode_id:True ,force=True)
 
         scores = []
         for _ in range(50): #trials
