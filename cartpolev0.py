@@ -1,3 +1,4 @@
+#http://gym.openai.com/docs/
 import gym
 env = gym.make('CartPole-v0')
 env = gym.wrappers.Monitor(env, './vidsrandom/', video_callable= lambda episode_id:True ,force=True)
