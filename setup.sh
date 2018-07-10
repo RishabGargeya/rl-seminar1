@@ -21,7 +21,7 @@ sudo apt-get install python-opengl
 
 source ~/.bashrc
 git clone https://github.com/RishabGargeya/rl-seminar1.git
-cd rl-seminar
+cd rl-seminar1
 
 conda env create
 
